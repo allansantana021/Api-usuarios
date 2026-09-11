@@ -18,4 +18,4 @@
     function findByUsername(username){
         return username.find((u) => u.username === username);
     }
-    module.exports (findByUsername);
+module.exports = findByUsername;
